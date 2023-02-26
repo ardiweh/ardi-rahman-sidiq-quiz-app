@@ -1,0 +1,81 @@
+
+  * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+  }
+
+  body {
+    background-color: rgb(5, 176, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+.score-section {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+}
+.app {
+    height: min-content;
+    width: 450px;
+    min-height: 200px;
+    border-radius: 15px;
+    padding-top: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(63, 59, 59, 0.75);
+    display: flex;
+    justify-content: center;
+    background-color:rgb(76, 221, 250)
+  }
+
+.question-count {
+    margin-bottom: 20px;
+}
+
+.question-count span {
+    font-size: 28px;
+}
+
+.question-text {
+    margin-bottom: 12px;
+}
+
+.timer text {
+    background: rgb(230, 153, 12);
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 5px solid rgb(255, 189, 67);
+}
+
+.button {
+    width: 100%;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(153, 150, 189, 0.667);
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 5px solid rgb(6, 2, 70)
+}
+
+.buttonOption {
+    width: 100%;
+    font-size: 16px;
+    background-color: rgba(153, 150, 189, 0.667);
+    border-radius: 15px;
+    display: flexbox;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 5px solid rgb(6, 2, 70)
+}
